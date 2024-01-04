@@ -1,0 +1,23 @@
+# > name: Name of your skill
+# > weight: Describes how good you know this skill - values from 1 up to 5
+#
+# Example:
+# - name: Git
+#   weight: 5
+
+- name: Git
+  weight: 3
+- name: LaTeX
+  weight: 2
+- name: Neovim
+  weight: 4
+- name: gdb
+  weight: 5
+- name: sphinx
+  weight: 4
+- name: Doxygen
+  weight: 2
+- name: Wireshark
+  weight: 3
+- name: docker
+  weight: 3

@@ -1,0 +1,27 @@
+# > name: Name of your skill
+# > weight: Describes how good you know this skill - values from 1 up to 5
+#
+# Example:
+# - name: Git
+#   weight: 5
+
+- name: PyTorch
+  weight: 2
+- name: NumPy
+  weight: 3
+- name: Matplolib
+  weight: 1
+- name: torchvision
+  weight: 1
+- name: pwntools
+  weight: 3
+- name: keras
+  weight: 1
+- name: BeautifulSoup
+  weight: 1
+- name: Pandas
+  weight: 2
+- name: sklearn
+  weight: 2
+- name: FLTK
+  weight: 1

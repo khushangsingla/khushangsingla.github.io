@@ -1,0 +1,116 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: The UNSHARED Spectre
+  descr: "This project was done in teams of 3. We explored effects of various changes in spectre attack. We also modified the attack to leak data from victim when there is no shared memory. This modification involved use of Prime+Probe to leak cache states."
+  github: https://github.com/khushangsingla/The-UNSHARED-Spectre
+  categs:
+    - categ: architecture
+    - categ: security
+  tags:
+    - tag: Computer Architecture
+    - tag: Spectre
+    - tag: Prime + Probe
+    - tag: Makefile
+
+- name: FastChat
+  descr: "A fast, secure chatting application. <br>
+    In this project, we (team of 3) built a chatting application with End-to-End Encryption. It also supported Group Chats. We used sockets and selectors primitives in python for communication channels and server handling respectively. We also implemented various load-balancer techniques. We compared various load-balancing mechanisms by performance analysis using 100 clients connecting to 5 servers."
+  github: https://github.com/Secure-Fast-Chat
+  categs:
+    - categ: development
+  tags:
+    - tag: Sockets
+    - tag: Python
+    - tag: selectors
+    - tag: Client-Server
+    - tag: End-to-End Encryption
+
+- name: CNN-lytical
+  descr: "Convolutional Neural Network. I made Neural Network from scratch for MNIST dataset. I also made Convolutional Neural Network using PyTorch for classifying CIFAR-10 dataset. The project also involved implementing U-Net on Caravana Dataset."
+  github: https://github.com/khushangsingla/SoC-CNN-lytical
+  categs:
+    - categ: ML
+  tags:
+    - tag: Neural Net
+    - tag: CNN
+    - tag: U-Net
+    - tag: ML
+    - tag: PyTorch
+
+- name: Tic-Tac-Toe
+  descr: "Game of Tic-Tac-Toe <br> This game involves two players on network. One of the players acts as server and other player acts as client. This was made using sockets in Java."
+  github: https://github.com/khushangsingla/Tic-Tac-Toe
+  categs:
+    - categ: development
+  tags:
+    - tag: Java
+    - tag: Game
+    - tag: Sockets
+
+- name: Brick Breaker
+  descr: "Game of Brick Breaker. This is a web browser game made using javascript and HTML. The game involves various levels. The game is also hosted on GitHub pages."
+  github: https://github.com/khushangsingla/Brick-Breaker
+  demo: https://khushangsingla.github.io/Brick-Breaker
+  categs:
+    - categ: Development
+    - categ: Web
+  tags:
+    - tag: HTML
+    - tag: JavaScript
+    - tag: Game
+
+- name: Balloon Shooter
+  descr: "Single Player game made using Fast-Light ToolKit (FLTK) library of C++. This project involved various concepts of Object Oriented Programming."
+  github: https://github.com/khushangsingla/Balloon-Shooter
+  categs:
+    - categ: Development
+  tags:
+    - tag: OOPS
+    - tag: C++
+    - tag: FLTK
+
+- name: Adversarial ML
+  descr: "Course Project studying various different types of adversarial attacks and defenses on different types of datasets."
+  github: https://github.com/khushangsingla/Adversarial-ML
+  categs:
+    - categ: ml
+    - categ: security
+  tags:
+    - tag: ML
+    - tag: Adversary
+    - tag: CyberSecurity
+
+- name: Anonymous Communication Tools
+  descr: "Group of 2. Studied about various tools for anonymous communication. Focussed on deep understanding of anonymous network of I2P and Tor."
+  github: https://github.com/khushangsingla/Anonymous-Communication-Tools
+  categs:
+    - categ: security
+  tags:
+    - tag: Tor
+    - tag: I2P
+    - tag: Anonymous
+    - tag: CyberSecurity
+
+- name: Cache Hierarchy for Graph Analytics
+  descr: "Studied effects of different cache hierarchies on performance in case of graph workloads. Used champsim simulator to implement variations of cache hierarchies."
+  github: https://github.com/khushangsingla/Cache-Hierarchy-For-Graph-Analytics
+  categs:
+    - categ: architecture
+  tags:
+    - tag: Cache Hierarchy
+    - tag: ChampSim
+    - tag: Graph workloads
+    - tag: Performance
