@@ -9,7 +9,7 @@ description: Khushang Singla's personal website powered by Jekyll. Built using n
 
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: ""
+baseurl: "/~khushangsingla"
 
 ### LANDING PAGE ###
 
@@ -76,7 +76,7 @@ timeline_title: Education & Experience
 
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: /assets/docs/cv_en.pdf
+cv_download_link: assets/docs/cv_en.pdf
 
 
 ### PROJECTS SECTION ###
