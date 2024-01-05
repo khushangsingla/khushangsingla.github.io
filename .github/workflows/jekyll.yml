@@ -36,7 +36,7 @@ jobs:
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
+          ruby-version: 3.0.6p216
       - name: Setup bundle
         run: bundle install
       - name: Setup Pages
