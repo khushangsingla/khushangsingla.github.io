@@ -57,6 +57,16 @@
     - tag: YACC
     - tag: Lex
 
+- name: Capture The Flags
+  descr: "I participated in various CTFs as part of the team <a href=\"https://ctftime.org/team/165802/\">IITBreachers</a>, the official team of Cybersecurity Community of IIT Bombay. We ended up in good positions in various CTFs and even qualified the first round of CSAW. I also designed and hosted various questions for various CTFs organised by <a href=\"https://trustlab.iitb.ac.in/\">Trust Lab, IIT Bombay</a>. I have written writeups of a few of the questions I designed."
+  demo: https://khushangsingla.github.io/blog/writeups
+  categs:
+    - categ: CTF
+    - categ: Cyber Security
+  tags:
+    - tag: Cyber Security
+      tag: CTF
+
 - name: FastChat
   descr: "A fast, secure chatting application. <br>
     In this project, we (team of 3) built a chatting application with End-to-End Encryption. It also supported Group Chats. We used sockets and selectors primitives in python for communication channels and server handling respectively. We also implemented various load-balancer techniques. We compared various load-balancing mechanisms by performance analysis using 100 clients connecting to 5 servers."
