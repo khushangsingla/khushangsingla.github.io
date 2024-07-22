@@ -25,6 +25,17 @@
     - tag: Prime + Probe
     - tag: Makefile
 
+- name: Compiler for SCLP
+  descr: "<a href=\"https://www.cse.iitb.ac.in/~uday/sclp-web/\">SCLP</a> stands for Simple C Like Programming Language. As a part of course project for the course Implementation of Programming Languages, we had written this compiler in teams of 2. This compiler generates mips assembly for the input program. It supports loops, conditions, and functions."
+  github: https://github.com/khushangsingla/SCLP-Compiler
+  categs:
+    - categ: development
+  tags:
+    - tag: CPP
+    - tag: Compiler
+    - tag: YACC
+    - tag: Lex
+
 - name: FastChat
   descr: "A fast, secure chatting application. <br>
     In this project, we (team of 3) built a chatting application with End-to-End Encryption. It also supported Group Chats. We used sockets and selectors primitives in python for communication channels and server handling respectively. We also implemented various load-balancer techniques. We compared various load-balancing mechanisms by performance analysis using 100 clients connecting to 5 servers."
