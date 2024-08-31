@@ -40,13 +40,13 @@ blog_link: blog
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
 # > setting this to false, will omit the About Me section
-show_aboutme_card: true
+show_aboutme_card: false
 
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 
 # about_me_description: This will be displayed under the title.
-about_me_description: I am a student at Indian Institute of Technology Bombay. I am pursuing Bachelor of Technology degree in Computer Science and Engineering Department. I have great interest in Computer System Security. I am also a member of Computer Architecture Security and Performance Research Group (CASPER) run by Professor Biswabandan Panda.
+about_me_description: I am a student at Indian Institute of Technology Bombay. I am pursuing Bachelor of Technology degree in Computer Science and Engineering Department. I have great interest in Computer System Security. I have also played various CTFs and have been doing various projects in Offensive Microarchitecture Security.
 
 ### SKILLS SECTION ###
 
