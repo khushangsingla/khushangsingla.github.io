@@ -35,6 +35,17 @@
     - tag: TLB Reverse Engineering
     - tag: TLB Attacks
 
+- name: Cache Hierarchy for Graph Analytics
+  descr: "Studied effects of different cache hierarchies on performance in case of graph workloads. Used champsim simulator to implement variations of cache hierarchies."
+  github: https://github.com/khushangsingla/Cache-Hierarchy-For-Graph-Analytics
+  categs:
+    - categ: architecture
+  tags:
+    - tag: Cache Hierarchy
+    - tag: ChampSim
+    - tag: Graph workloads
+    - tag: Performance
+
 - name: Process Fingerprinting
   descr: "This was my RnD Project done under guidance of <a href=\"https://www.cse.iitb.ac.in/~biswa/\">Prof. Biswabandan Panda</a>. As part of this project, I first read about the <a href=\"https://dl.acm.org/doi/pdf/10.1145/3470496.3527416\">Website Fingerprinting</a> which analyses and proves that interrupts cause the leakage in <a href=\"https://www.usenix.org/system/files/sec19-shusterman.pdf\">this</a> and not the cache as was said in the paper. Later, we explored the possibility of using this interrupt side channel to break VM isolation and leak the processes being run across the VM layer. This was started by <a href=\"https://in.linkedin.com/in/girish-srivatsa-43534b196\">Girish Srivatsa</a> and Prajith and later continued by me and <a href=\"https://sroy729.github.io/yupp/\">Shubham Roy</a>"
   demo: https://docs.google.com/presentation/d/1MYeewfUzYSVosXHWRb_S0PKwRvb03STotVF1qLibV_Y/edit?usp=sharing
@@ -45,6 +56,17 @@
     - tag: Computer Architecture
     - tag: VM Isolation
     - tag: Interrupt Side Channel
+
+- name: Blockchain Simulator
+  descr: "This was my course project done under guidance of <a href=\"https://www.cse.iitb.ac.in/~vinayr/\">Prof. Vinay Ribeiro</a>. As part of this project, I implemented a blockchain simulator in C++. The simulator supported small and fast nodes connected through fast or slow links. It simulated PoW based on various heuristics."
+  github: https://github.com/arijitsaha2002/P2P-Cryptocurrency-Network-Simulator
+  categs:
+    - categ: Software
+    - categ: Simulation
+  tags:
+    - tag: CPP
+    - tag: Blockchain
+    - tag: Simulator
 
 - name: Compiler for SCLP
   descr: "<a href=\"https://www.cse.iitb.ac.in/~uday/sclp-web/\">SCLP</a> stands for Simple C Like Programming Language. As a part of course project for the course Implementation of Programming Languages, we had written this compiler in teams of 2. This compiler generates mips assembly for the input program. It supports loops, conditions, and functions."
@@ -145,14 +167,3 @@
     - tag: I2P
     - tag: Anonymous
     - tag: CyberSecurity
-
-- name: Cache Hierarchy for Graph Analytics
-  descr: "Studied effects of different cache hierarchies on performance in case of graph workloads. Used champsim simulator to implement variations of cache hierarchies."
-  github: https://github.com/khushangsingla/Cache-Hierarchy-For-Graph-Analytics
-  categs:
-    - categ: architecture
-  tags:
-    - tag: Cache Hierarchy
-    - tag: ChampSim
-    - tag: Graph workloads
-    - tag: Performance
